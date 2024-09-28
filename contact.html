@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="CSS/style.css">
+    <style>
+        body{
+            /* background-image: url("photos/city1.jpg"); */
+            background-color: darkolivegreen;
+        }
+         #contact:hover{
+            background-color: rgb(43, 226, 116);
+            border-collapse: separate;
+            border-width: 20px;
+            border-radius: 20px;
+        }
+        button{
+            background-color: brown;
+            color: aliceblue;
+            size: 100px;
+            padding: 10px;
+        }
+        #button:hover{
+           
+            font-size: medium;
+            background-color: crimson;
+        }
+        .comment:hover{
+            background-color: rgb(84, 124, 17);
+        }
+        .input:hover{
+           background-color: rgb(145, 84, 201);
+        }
+        p{
+            border-style: solid 5px ;
+            background-color: bisque;
+            border-spacing: 10px;
+        }
+        #password:hover{
+             background-color: aquamarine;
+        }
+        #job:hover{
+            background-color: aquamarine;
+        }
+        
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SELAM PHOTO STUDIO</title>
+</head>
+            <body>
+                adfjhvabfcv
+                <br>
+                <center id="contact">
+                            <a href="home.html">Home</a>
+                        <a href="galllery.html">Gallerys</a>
+                        <a href="contact.html">Contact us</a>
+                        <a href="cards.html">Cards</a>
+                        <a href="wallpapers.html">wallpapers</a>
+                </center>
+                <br><br>
+            <div style="text-align: center;">
+                            <h1>CONTACT US:</h1>
+                            <h2>Phone: 0961064370 <br>Email:birhanugezahegn099@gmail.com <br>Address:Addis Abeba Piassa</h2>
+                            <hr>
+                        </div>
+                            <p id="have" style="color: red;text-align: center ;">Have you any comment? if you have, fill the below spaces.</p>
+                            <form style="text-align: center; border-style: solid;" name="comment_form" method="post">
+                                <br>
+                          <div style="border-style: solid; border: width: 50%px;;">
+                          <table align="center" border="2px" >
+                                    <td>
+                                <label for="">Full name:</label>
+                                <input class="input" style="background-color: aquamarine; height: 20px;" placeholder="Write your Full name" type="text" name="fullname" ><br><br>
+                                <label for="">Job position  :</label>
+                                <select name="job" id="job">
+                                        <optio style="text-size-adjust: inherit;" value="">chooce your job position </option>
+
+                                        <option value="">g/t worker</option>
+                                        <option value="">Individual</option>
+                                        <option value="">Student</option>
+                                        <option value="">below 18</option>
+                                </select><br><br>
+                                <label for="">Email:</label>
+                                <input type="email" style="background-color:aquamarine ; height: 20px;" placeholder="Enter your email address"><br/>
+                                <label for="">&COPY;Password:</label>
+                                <input id="password" type="password" placeholder="Enter your email password">
+                            <br><br>
+                                <label for="">Gender</label><br>
+                                <label for="">Male:</label>
+                            <input type="radio" name="Gender"><br>
+                            <label for="">Female:</label>
+                            <input type="radio" name="Gender">
+                                <br/><br/>
+                            </td>
+                        </table>
+                    </div>
+                    <label for="">Comment:</label>
+                    <br/>
+                    <textarea name="comment" class="comment" rows="5" cols="50" placeholder="write your comment here" style="background-color: bisque; border-radius: 20px;"></textarea>
+                    <br>
+                    
+                        <!-- <button  id="button"style="border-radius: 20px;padding-left: 20px;">back</button> -->
+                        <a style="width: 10px;" href="home.html">&triangleleft; Back</a>
+
+                    <input  id="input" type="reset" name="reset">
+                    <input onclick="Hello()" id="input" type="submit" name="submit" >
+                </form>
+                <script>
+                    function Hello(){
+                        alert("You are successfully submited your comment!: THANKYOU VERY MUCH");
+                    
+                    }
+                </script>
+
+                
+            </body>
+</html>

@@ -1,0 +1,88 @@
+a{
+    text-align: center;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 8px;
+border-radius: 20px;
+text-decoration:none;
+}
+a:hover{
+background-color: aquamarine;
+color: red;
+}
+table{
+    width: 50%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: antiquewhite;
+    
+.contact{
+    position: fixed;
+    text-align: center;
+}
+#img1{
+    padding: 50px;
+    background-color: bisque;
+    nav-down: root;
+}
+#img2{
+    padding: 50px;
+    background-color: bisque;
+    nav-down: root;
+}
+form{
+    background-color: cadetblue;
+}
+div{
+    background-color: rgb(199, 120, 23);
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+div article{
+    padding: auto;
+    margin: auto;
+   width: 33.3%;
+   display: flex;
+   flex-wrap: wrap;
+    margin-bottom: 10px;
+    white-space: 100px;
+}
+.article{
+    display: flex;
+    flex-wrap: wrap;
+   height: 50px;
+    width: 49%;s
+}
+
+body{
+    background-color: darkgoldenrod;
+}
+.comment:hover{
+    background-color: aquamarine;
+}
+
+#birthday{
+    width: 100px;
+}
+#input{
+    background-color: brown;
+    height: 40px;
+    width: 70px;
+    border-radius: 20px;
+    color: white;
+}
+#input:hover{
+    background-color: red;
+    width: 75px;
+    height: 43px;
+
+}
+
+#footer{
+    background-color: rgb(100,100,100);
+    border-style: solid;
+    height: 500px;
+    width: 100%;
+}
